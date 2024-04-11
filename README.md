@@ -8,17 +8,29 @@
 
 - Herramientas de desarrollo
 
-  - PowerShell
+  - Node
 
-    - [Resumen](https://learn.microsoft.com/en-us/powershell/scripting/overview)
-    - [Instalación](https://learn.microsoft.com/es-es/powershell/scripting/install/installing-powershell-on-windows)
+    <https://nodejs.org/en/download/current>
+    <https://nodejs.org/dist/v20.12.2/node-v20.12.2-x64.msi>
 
-      - [Descargar](https://aka.ms/powershell-release?tag=stable)
-      - Ejecutar
+    ```powershell
+    # verifies the right Node.js version is in the environment
+    node -v # should print `v20.12.2`
+    # verifies the right NPM version is in the environment
+    npm -v # should print `10.5.0`
+    ```
 
-        ```powershell
-        winget install --id Microsoft.Powershell --source winget
-        ```
+- PowerShell
+
+  - [Resumen](https://learn.microsoft.com/en-us/powershell/scripting/overview)
+  - [Instalación](https://learn.microsoft.com/es-es/powershell/scripting/install/installing-powershell-on-windows)
+
+    - [Descargar](https://aka.ms/powershell-release?tag=stable)
+    - Ejecutar
+
+      ```powershell
+      winget install --id Microsoft.Powershell --source winget
+      ```
 
 ## Pruebas
 
@@ -31,6 +43,11 @@
     - [Sitio oficial](https://github.com/bchavez/Bogus)
     - [Explicación general](https://code-maze.com/data-generation-bogus-dotnet)
     - [Integración con Entity Framework](https://stenbrinke.nl/blog/taking-ef-core-data-seeding-to-the-next-level-with-bogus)
+- Mock de clases para pruebas
+  - https://github.com/devlooped/moq
+  - https://www.youtube.com/watch?v=a6Qab5l-VLo
+  - https://www.codemag.com/Article/2305041/Using-Moq-A-Simple-Guide-to-Mocking-for-.NET
+  - https://code-maze.com/using-moq-to-determine-if-method-is-called/
 - Validaciones en pruebas
   - Fluent Assertions - Paquete para hacer validaciones "fluidas" para .NET
     - [Sitio oficial](https://fluentassertions.com)
