@@ -60,6 +60,9 @@
     - [Integración con pruebas en .NET 2](https://www.milanjovanovic.tech/blog/testcontainers-integration-testing-using-docker-in-dotnet)
 - TODO
   - <https://milan.milanovic.org/post/enabling-high-code-quality-in-net/>
+  - https://code-maze.com/selenium-aspnet-core-ui-tests/
+  - https://code-maze.com/aspnet-core-integration-testing/
+  - https://code-maze.com/aspnetcore-performance-testing-with-k6/
 
 ## Despliegue
 
