@@ -59,10 +59,13 @@
     - [Integración con pruebas en .NET 1](https://blog.jetbrains.com/dotnet/2023/10/24/how-to-use-testcontainers-with-dotnet-unit-tests)
     - [Integración con pruebas en .NET 2](https://www.milanjovanovic.tech/blog/testcontainers-integration-testing-using-docker-in-dotnet)
 - TODO
-  - <https://milan.milanovic.org/post/enabling-high-code-quality-in-net/>
+  - https://milan.milanovic.org/post/enabling-high-code-quality-in-net/
   - https://code-maze.com/selenium-aspnet-core-ui-tests/
   - https://code-maze.com/aspnet-core-integration-testing/
   - https://code-maze.com/aspnetcore-performance-testing-with-k6/
+  - https://code-maze.com/aspnetcore-unit-testing-xunit/
+  - https://code-maze.com/unit-testing-controllers-aspnetcore-moq/
+  - https://code-maze.com/csharp-architecture-tests-with-netarchtest-rules/
 
 ## Despliegue
 
